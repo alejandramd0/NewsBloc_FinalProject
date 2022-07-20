@@ -17,6 +17,8 @@
 		A217AD0B288724A100BCB90A /* NewsBloc_FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A217AD0A288724A100BCB90A /* NewsBloc_FinalProjectTests.swift */; };
 		A217AD15288724A100BCB90A /* NewsBloc_FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A217AD14288724A100BCB90A /* NewsBloc_FinalProjectUITests.swift */; };
 		A217AD17288724A100BCB90A /* NewsBloc_FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A217AD16288724A100BCB90A /* NewsBloc_FinalProjectUITestsLaunchTests.swift */; };
+		BD8849EB28885BE400ED797C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8849EA28885BE400ED797C /* Main.storyboard */; };
+		BD8849ED28885D7D00ED797C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8849EC28885D7D00ED797C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A217AD10288724A100BCB90A /* NewsBloc_FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsBloc_FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A217AD14288724A100BCB90A /* NewsBloc_FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBloc_FinalProjectUITests.swift; sourceTree = "<group>"; };
 		A217AD16288724A100BCB90A /* NewsBloc_FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBloc_FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD8849EA28885BE400ED797C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BD8849EC28885D7D00ED797C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		A217ACE42887249D00BCB90A = {
 			isa = PBXGroup;
 			children = (
+				BD8849EC28885D7D00ED797C /* Main.storyboard */,
+				BD8849EA28885BE400ED797C /* Main.storyboard */,
 				A217ACEF2887249D00BCB90A /* NewsBloc_FinalProject */,
 				A217AD09288724A100BCB90A /* NewsBloc_FinalProjectTests */,
 				A217AD13288724A100BCB90A /* NewsBloc_FinalProjectUITests */,
@@ -235,8 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A217AD00288724A100BCB90A /* LaunchScreen.storyboard in Resources */,
+				BD8849ED28885D7D00ED797C /* Main.storyboard in Resources */,
 				A217ACFD288724A100BCB90A /* Assets.xcassets in Resources */,
 				A217ACF82887249D00BCB90A /* Main.storyboard in Resources */,
+				BD8849EB28885BE400ED797C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
