@@ -183,7 +183,7 @@
         <scene sceneID="U2K-bQ-0TD">
             <objects>
                 <viewController id="g1D-BK-CBP" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xsb-Uf-emb">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="xsb-Uf-emb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
