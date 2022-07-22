@@ -286,7 +286,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8XY-et-PzF">
-                                                <rect key="frame" x="97" y="57" width="240" height="1091"/>
+                                                <rect key="frame" x="46" y="57" width="342" height="731"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <mutableString key="text">On June 24th, the Supreme Court voted to overturn Roe v. Wade and this gave states the power to decide if abortion should be illegal, restricted, or protected. The overturning is most likely to affect low income women, women of color, and women who live in red (Republican-controlled) states. Some states such as Texas have criminalized abortion after a certain period of weeks in one's pregnancy. Other states may have exceptions in cases of rape, incest, or if a mother's life is at risk. As of now, abortion pills are still legal in all 50 states. This overturning could also affect other landmark rulings such as Griswold v. Connecticut (access to contraceptives) and Obergefell v. Hodges (made same-sex marriage legal) given the conservative majority in the SCOTUS. 
