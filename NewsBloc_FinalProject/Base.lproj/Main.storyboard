@@ -183,7 +183,7 @@
         <scene sceneID="U2K-bQ-0TD">
             <objects>
                 <viewController id="g1D-BK-CBP" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="xsb-Uf-emb">
+                    <view key="view" contentMode="scaleToFill" id="xsb-Uf-emb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -277,7 +277,30 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Er3-gQ-7rk" userLabel="AbortionView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
-                                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Overturning of Roe v. Wade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uag-MC-lEx">
+                                                <rect key="frame" x="72" y="23" width="290" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8XY-et-PzF">
+                                                <rect key="frame" x="97" y="57" width="240" height="1091"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <mutableString key="text">On June 24th, the Supreme Court voted to overturn Roe v. Wade and this gave states the power to decide if abortion should be illegal, restricted, or protected. The overturning is most likely to affect low income women, women of color, and women who live in red (Republican-controlled) states. Some states such as Texas have criminalized abortion after a certain period of weeks in one's pregnancy. Other states may have exceptions in cases of rape, incest, or if a mother's life is at risk. As of now, abortion pills are still legal in all 50 states. This overturning could also affect other landmark rulings such as Griswold v. Connecticut (access to contraceptives) and Obergefell v. Hodges (made same-sex marriage legal) given the conservative majority in the SCOTUS. 
+
+Book Recommendation: The Turnaway Study by Diana Greene Foster
+
+Podcast Recommendation: https://podcasts.apple.com/us/podcast/the-dobbs-decision-isnt-just-about-abortion-its-about-power/id1548604447?i=1000567732834
+</mutableString>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemCyanColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1200" id="7O3-Pl-9ac"/>
                                         </constraints>
@@ -318,8 +341,14 @@
         <image name="covid headliner" width="276" height="183"/>
         <image name="redcube" width="360" height="360"/>
         <image name="ukraine headliner" width="275" height="183"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
