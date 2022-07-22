@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2CB328288AF31E0047AE92 /* AVPlayerCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2CB327288AF31E0047AE92 /* AVPlayerCovidViewController.swift */; };
 		A217ACF12887249D00BCB90A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A217ACF02887249D00BCB90A /* AppDelegate.swift */; };
 		A217ACF32887249D00BCB90A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A217ACF22887249D00BCB90A /* SceneDelegate.swift */; };
 		A217ACF52887249D00BCB90A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A217ACF42887249D00BCB90A /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F2CB327288AF31E0047AE92 /* AVPlayerCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerCovidViewController.swift; sourceTree = "<group>"; };
 		A217ACED2887249D00BCB90A /* NewsBloc_FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsBloc_FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A217ACF02887249D00BCB90A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A217ACF22887249D00BCB90A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				A217ACF02887249D00BCB90A /* AppDelegate.swift */,
 				A217ACF22887249D00BCB90A /* SceneDelegate.swift */,
 				A217ACF42887249D00BCB90A /* ViewController.swift */,
+				7F2CB327288AF31E0047AE92 /* AVPlayerCovidViewController.swift */,
 				A217ACF62887249D00BCB90A /* Main.storyboard */,
 				A217ACFC288724A100BCB90A /* Assets.xcassets */,
 				A217ACFE288724A100BCB90A /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				A217ACF52887249D00BCB90A /* ViewController.swift in Sources */,
 				A217ACF12887249D00BCB90A /* AppDelegate.swift in Sources */,
 				A217ACF32887249D00BCB90A /* SceneDelegate.swift in Sources */,
+				7F2CB328288AF31E0047AE92 /* AVPlayerCovidViewController.swift in Sources */,
 				A217ACFB2887249D00BCB90A /* NewsBloc_FinalProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
